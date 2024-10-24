@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nexus Project - System Status Update</title>
+  </head>
+  <body
+    style="
+      margin: 0;
+      padding: 0;
+      font-family: 'Space Mono', 'Courier New', monospace;
+      background-color: #0a0a0a;
+    "
+  >
+    <table
+      role="presentation"
+      style="
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #121212;
+        border-collapse: collapse;
+      "
+    >
+      <tr>
+        <td style="padding: 32px">
+          <!-- Header -->
+          <table
+            role="presentation"
+            style="width: 100%; border-collapse: collapse"
+          >
+            <tr>
+              <td style="text-align: left">
+                <div
+                  style="
+                    display: inline-block;
+
+                    padding: 8px 16px;
+                    border-radius: 4px;
+                  "
+                >
+                  <!-- Replace text with logo image -->
+                  <img
+                    src="https://i.ibb.co/bWvGKTP/logo-nexus.png"
+                    alt="NEXUS_PROJECT"
+                    style="height: 70px; display: block"
+                  />
+                </div>
+              </td>
+              <td style="text-align: right">
+                <a
+                  href="https://www.instagram.com/nexussjcet/"
+                  style="
+                    color: #00ff95;
+                    text-decoration: none;
+                    margin-left: 20px;
+                    font-size: 14px;
+                    border-bottom: 1px solid #00ff9540;
+                  "
+                  >GET IN TOUCH</a
+                >
+                <a
+                  href="mailto:nexus@sjcetpalai.ac.in"
+                  style="
+                    color: #00ff95;
+                    text-decoration: none;
+                    margin-left: 20px;
+                    font-size: 14px;
+                    border-bottom: 1px solid #00ff9540;
+                  "
+                  >CONTACT</a
+                >
+              </td>
+            </tr>
+          </table>
+
+          <!-- Status Bar -->
+          <div
+            style="
+              margin: 32px 0;
+              background-color: #1a1a1a;
+              border: 1px solid #00ff9540;
+              border-radius: 4px;
+              padding: 12px;
+            "
+          >
+            <div style="display: table; width: 100%">
+              <div style="display: table-cell; vertical-align: middle">
+                <span
+                  style="
+                    display: inline-block;
+                    width: 8px;
+                    height: 8px;
+                    background-color: #00ff95;
+                    border-radius: 50%;
+                    margin-right: 12px;
+                  "
+                ></span>
+                <span style="color: #00ff95; font-size: 14px"
+                  >SYSTEM_STATUS: ACTIVE</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Section -->
+          <div
+            style="
+              position: relative;
+              margin: 32px 0;
+              border: 1px solid #00ff9540;
+              border-radius: 8px;
+              overflow: hidden;
+            "
+          >
+            <div
+              style="
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: linear-gradient(
+                  45deg,
+                  rgba(0, 255, 149, 0.1),
+                  rgba(0, 0, 0, 0.3)
+                );
+                z-index: 1;
+              "
+            ></div>
+            <img
+              src="https://i.ibb.co/YBc4tKd/Twitter-header-3.png"
+              alt="Nexus Project Promotion"
+              style="width: 100%; display: block"
+            />
+            <div
+              style="
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                padding: 24px;
+                background: linear-gradient(transparent, rgba(0, 0, 0, 0.9));
+                z-index: 2;
+              "
+            >
+              <div style="color: #00ff95; font-size: 18px; letter-spacing: 1px">
+                > FOSSDAY_2024
+              </div>
+            </div>
+          </div>
+
+          <!-- Message Container -->
+          <div
+            style="
+              background-color: #1a1a1a;
+              border: 1px solid #00ff9540;
+              border-radius: 8px;
+              padding: 24px;
+              margin: 32px 0;
+            "
+          >
+            <div
+              style="
+                color: #00ff95;
+                margin-bottom: 16px;
+                font-family: 'Space Mono', monospace;
+              "
+            >
+              > STATUS: SYSTEM_REGISTRATION_ERROR_DETECTED<br />
+              > INITIATING_APOLOGY_PROTOCOL
+            </div>
+            <div
+              style="
+                color: #e0e0e0;
+                margin: 24px 0;
+                line-height: 1.6;
+                font-size: 15px;
+              "
+            >
+              Dear &lt;FOSS Enthusiast&gt;,<br /><br />
+              We noticed that you were unable to complete your registration with
+              us, and we sincerely apologize for any inconvenience this may have
+              caused.<br /><br />
+              We've identified and resolved the issue with our onboarding
+              system, and we're excited to welcome you back. Your participation
+              means a lot to us, and we're eager to have you be a part of our
+              community.<br /><br />
+              We hope to see you soon at FOSSDAY and look forward to sharing
+              this journey with you.<br /><br />
+              Warm regards,<br />
+              Team Nexus Project
+            </div>
+          </div>
+
+          <!-- Workshops Grid -->
+          <div style="margin: 32px 0">
+            <div
+              style="
+                color: #00ff95;
+                margin-bottom: 20px;
+                font-size: 16px;
+                letter-spacing: 1px;
+              "
+            >
+              > AVAILABLE_WORKSHOPS.map(workshop => render());
+            </div>
+            <table
+              role="presentation"
+              style="
+                width: 100%;
+                border-collapse: separate;
+                border-spacing: 0 24px;
+              "
+            >
+              <!-- Workshop 1 -->
+              <tr>
+                <td>
+                  <div
+                    style="
+                      border: 1px solid #00ff9540;
+                      border-radius: 8px;
+                      overflow: hidden;
+                      background-color: #1a1a1a;
+                    "
+                  >
+                    <img
+                      src="https://i.ibb.co/Bt2R8KT/final-w2.png"
+                      alt="Github Actions Workshop"
+                      style="width: 100%; display: block"
+                    />
+                    <div style="padding: 16px">
+                      <h3
+                        style="
+                          color: #00ff95;
+                          margin: 0 0 8px 0;
+                          font-size: 16px;
+                        "
+                      >
+                        Github Actions & CI/CD Pipelines
+                      </h3>
+                      <p style="color: #808080; margin: 0; font-size: 14px">
+                        Advanced automation and deployment workflows
+                      </p>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+
+              <!-- Workshop 2 -->
+              <tr>
+                <td>
+                  <div
+                    style="
+                      border: 1px solid #00ff9540;
+                      border-radius: 8px;
+                      overflow: hidden;
+                      background-color: #1a1a1a;
+                    "
+                  >
+                    <img
+                      src="https://i.ibb.co/JrWkY9Y/final-w1.png"
+                      alt="Git Workshop"
+                      style="width: 100%; display: block"
+                    />
+                    <div style="padding: 16px">
+                      <h3
+                        style="
+                          color: #00ff95;
+                          margin: 0 0 8px 0;
+                          font-size: 16px;
+                        "
+                      >
+                        Intro to Git & Version Control
+                      </h3>
+                      <p style="color: #808080; margin: 0; font-size: 14px">
+                        Master the fundamentals of version control
+                      </p>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+
+              <!-- Workshop 3 -->
+              <tr>
+                <td>
+                  <div
+                    style="
+                      border: 1px solid #00ff9540;
+                      border-radius: 8px;
+                      overflow: hidden;
+                      background-color: #1a1a1a;
+                    "
+                  >
+                    <img
+                      src="https://i.ibb.co/xjfkY00/final-w3.png"
+                      alt="Docker Workshop"
+                      style="width: 100%; display: block"
+                    />
+                    <div style="padding: 16px">
+                      <h3
+                        style="
+                          color: #00ff95;
+                          margin: 0 0 8px 0;
+                          font-size: 16px;
+                        "
+                      >
+                        Docker for DevOps & Self Hosting
+                      </h3>
+                      <p style="color: #808080; margin: 0; font-size: 14px">
+                        Container deployment and management
+                      </p>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <!-- Action Button -->
+          <div style="text-align: center; margin: 40px 0">
+            <a
+              href="https://makemypass.com/fossday"
+              style="
+                display: inline-block;
+                background-color: #00ff95;
+                color: #000000;
+                padding: 16px 32px;
+                text-decoration: none;
+                border-radius: 4px;
+                font-weight: 500;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+              "
+              >RETRY_REGISTRATION()</a
+            >
+          </div>
+
+          <!-- Footer -->
+          <div
+            style="
+              margin-top: 40px;
+              padding-top: 24px;
+              border-top: 1px solid #00ff9540;
+              text-align: center;
+            "
+          >
+            <p style="color: #00ff95; font-size: 14px; margin-bottom: 16px">
+              © 2024 NEXUS_PROJECT | All rights reserved
+            </p>
+            <div style="color: #00ff95; font-size: 13px">
+              <a
+                href="#"
+                style="color: #808080; text-decoration: none; margin: 0 12px"
+                >Privacy</a
+              >
+              <span style="color: #404040">|</span>
+              <a
+                href="#"
+                style="color: #808080; text-decoration: none; margin: 0 12px"
+                >Terms</a
+              >
+              <span style="color: #404040">|</span>
+              
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
